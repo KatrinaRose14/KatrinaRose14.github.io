@@ -1,0 +1,57 @@
+body, html { 
+    background: url(heading.jpeg) no-repeat center center fixed; 
+    background-size: cover;
+   
+  }
+
+h1 {
+    color: black;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 1.5px 1.5px grey;
+    font-family: cursive;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    bottom: 50%;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+
+
+button, input, optgroup, select, textarea {
+    margin: 0;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+    background-color: grey;
+    color: #eaebef;
+    border: none;
+}
+
+
+.clear {
+    background-color: grey;
+    font-family: cursive;
+    font-size: 15px;
+    border: gray;
+    text-align: center;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 60%;
+    bottom: 40%;
+    margin: 0 auto;
+    max-width: 200px;
+    max-height: 35px;
+}
+
+.clear:hover {
+    background-color: gray;
+    border-color: gray;
+    color: black;
+}
+
+
